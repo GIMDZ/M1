@@ -1,0 +1,98 @@
+#header {
+  background-image: url("../img/design1_image1.jpg");
+  /* dirección url de la imagen*/
+  height: 370px;
+  /* Altura del encabezado */
+  background-position: top;
+  /* para centrar */
+  background-repeat: no-repeat;
+  /* no repetir */
+  background-size: cover;
+  /* Modificar tamaño de la imagen para que cubra el contenedor */
+  left: 50%;
+}
+
+
+#content {
+
+  padding: 20px;
+  margin-top: 30px;
+  /* Espacio entre el encabezado y el contenido */
+
+}
+
+body {
+  max-width: 850px;
+  /* Mismo ancho de la imagen */
+  font-family: sans-serif;
+  margin-left: auto;
+  /* Márgenes para centrar la página */
+  margin-right: auto;
+}
+
+#nav {
+
+  width: 150px;
+  float: left;
+
+
+}
+
+a {
+  text-decoration: none;
+  /* Remover subrayado*/
+
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  /* Remover viñetas */
+}
+
+#main {
+  width: 650px;
+  float: right;
+  text-align: justify;
+}
+
+
+#logo {
+
+  position: absolute;
+  top: 300px;
+  left: 60%;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+
+  font-style: italic;
+}
+
+#subtitle {
+
+  background: black;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  position: static;
+  margin-top: 320px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  padding-left: 30px;
+
+}
+
+.active {
+
+  font-weight: bold;
+}

@@ -1,0 +1,216 @@
+#header {
+
+  background-image: url("../img/escuela-futbol.jpg");
+  /* dirección url de la imagen*/
+  height: 440px;
+  /* Altura del encabezado */
+  background-position: center;
+  /* para centrar */
+  background-repeat: no-repeat;
+  /* no repetir */
+  background-size: 850px 350px;
+  /* Modificar tamaño de la imagen para que cubra el contenedor */
+
+}
+
+body {
+  background-image: url("../img/funny-tumblr-search.jpg");
+  max-width: 850px;
+  /* Mismo ancho de la imagen */
+  font-family: sans-serif;
+  margin-left: auto;
+  /* Márgenes para centrar la página */
+  margin-right: auto;
+}
+
+
+nav {
+
+  width: 1000px;
+  position: absolute;
+  top: 90px;
+
+}
+
+a {
+  text-decoration: none;
+  /* Remover subrayado*/
+  border: solid 2px #000000;
+  background-color: blue;
+  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-shadow: 5px 5px #000000;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+#main {
+  width: 850px;
+  text-align: justify;
+  background: linear-gradient(160deg, black, grey);
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+#logo {
+  position: absolute;
+  top: 36%;
+  right: 28%;
+}
+
+img {
+  width: 180px;
+}
+
+h1 {
+
+  font-weight: bolder;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  background: linear-gradient(1deg, black, grey);
+
+
+}
+
+
+
+#subtitle {
+
+  font-style: normal;
+  text-align: center;
+  color: white;
+  position: static;
+  margin-top: 360px;
+  background: linear-gradient(160deg, black, grey);
+  border: 1px;
+
+}
+
+h3 {
+  font-style: italic;
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.active {
+
+  background-color: darkgreen;
+}
+
+li {
+  padding-top: 15px;
+  padding-right: 40px
+}
+
+.table1 {
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  align-content: center;
+  vertical-align: middle;
+  margin-left: auto;
+  /* Márgenes para centrar la página */
+  margin-right: auto;
+}
+
+caption {
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 5px 50px;
+  text-align: center;
+}
+
+th {
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.loc {
+  text-align: left;
+  padding: inherit;
+}
+
+.table2 {
+  margin-left: 30px;
+}
+
+.table3 {
+  text-align: left;
+}
+
+#intro {
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.checkbox_t1 {
+  width: 400px;
+  float: left;
+  font-size: 14px;
+  
+}
+
+.checkbox_t2 {
+  width: 400px;
+  float: right;
+  font-size: 14px;
+}
+
+/*School Checkbox Input */
+.sci{
+  text-align: left;
+  margin: inherit;
+  
+  
+}
+  
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.checkbox_h{
+  text-align: left;
+  text-decoration: none;
+  padding: inherit; 
+  padding-bottom: 5px;
+}
+
+/* Checkboxes en tablas */
+.ctable{
+  padding: inherit;
+  text-align: left;
+}
+
+/* texto de permisos */
+#permission{
+  padding: inherit;
+  font-size: 12px;
+  }
+
+fieldset{
+  border: none;
+}
+
+#submit{
+  padding: inherit;
+  margin-left: 45%;
+
+}

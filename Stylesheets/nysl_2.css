@@ -1,0 +1,110 @@
+#header {
+
+  background-image: url("../img/design2_image1.jpg");
+  /* dirección url de la imagen*/
+  height: 450px;
+  /* Altura del encabezado */
+  background-position: center;
+  /* para centrar */
+  background-repeat: no-repeat;
+  /* no repetir */
+  background-size: 850px 350px;
+  /* Modificar tamaño de la imagen para que cubra el contenedor */
+
+}
+
+#content {
+
+  padding: 20px;
+  margin-top: 30px;
+  /* Espacio entre el encabezado y el contenido */
+
+}
+
+body {
+  max-width: 850px;
+  /* Mismo ancho de la imagen */
+  font-family: sans-serif;
+  margin-left: auto;
+  /* Márgenes para centrar la página */
+  margin-right: auto;
+}
+
+nav {
+
+  width: 300px;
+  position: absolute;
+  top: 60px;
+  right: 500px;
+
+}
+
+a {
+  text-decoration: none;
+  /* Remover subrayado*/
+  border: solid 2px #000000;
+  background-color: blue;
+  color: white;
+  padding-right: 15px;
+
+  padding-left: 15px;
+  box-shadow: 5px 5px #000000;
+
+
+
+}
+
+
+#main {
+  width: 650px;
+  float: right;
+  text-align: justify;
+}
+
+
+#logo {
+  position: absolute;
+  top: 55%;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+
+  font-style: italic;
+}
+
+#title {
+
+  font-style: italic;
+  color: black;
+  position: static;
+
+}
+
+#subtitle {
+
+  font-style: normal;
+  text-align: center;
+  color: black;
+  position: static;
+  margin-top: 360px;
+  border: solid 3px;
+}
+
+
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  padding-left: 30px;
+}
+
+.active {
+
+  background-color: darkgreen;
+}

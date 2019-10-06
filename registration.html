@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <!-- Llamado al stylesheet correspondiente (eliminar comentario para cada estilo)-->
+  <link rel="stylesheet" href="Stylesheets/nysl_3.css">
+
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="header">
+
+      <!-- Inserción de img -->
+      <div id="logo">
+        <img src="img/nysl_logo.png" alt="Logo">
+      </div>
+
+      <h1>Northside Youth Soccer League</h1>
+      <div id="subtitle">
+        <h2 class="subtitle">Registration Form</h2>
+      </div>
+
+    </div>
+
+    <div id="content">
+      <div id="nav">
+
+        <!-- Enlaces a otras páginas -->
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contactNYSL.html">Contact</a>
+          <a href="rules.html"> Rules </a>
+          <a href="game_info.html">Game Info</a>
+          <a class="active" href="registration.html">Registration</a>
+
+        </nav>
+
+      </div>
+
+      <div id="main">
+
+        <form action="show_data.html" method="get">
+          <fieldset>
+            <label>
+              Player’s First Name:
+              <input type="text" name="name">
+            </label>
+            <label>
+              Last Name:
+              <input type="text" name="last name">
+            </label><br>
+            <label>
+              Street Address:
+              <input type="text" name="address" size="60">
+            </label><br>
+            <label>
+              City:
+              <input type="text" name="city">
+            </label>
+            <label>
+              Zip Code:
+              <input type="text" name="zip code">
+            </label> <br>
+            <label>
+              Birth Date (mm/dd/yyyy):
+              <input type="date" name="birthday">
+            </label>
+            <label>
+              Gender:
+              <input type="radio" name="gender" value="Female"> Female
+            </label>
+            <label>
+              <input type="radio" name="gender" value="Male"> Male<br>
+            </label>
+
+
+            <label>
+              Grade:
+              <input type="radio" name="grade" value="pre_school"> Pre-School
+            </label>
+            <label>
+
+              <input type="radio" name="grade" value="1st"> 1st
+            </label>
+            <label>
+
+              <input type="radio" name="grade" value="2nd"> 2nd
+            </label>
+            <label>
+
+              <input type="radio" name="grade" value="3rd"> 3rd
+            </label>
+            <label>
+
+              <input type="radio" name="grade" value="4th"> 4th
+            </label>
+            <label>
+
+              <input type="radio" name="grade" value="5th"> 5th<br>
+            </label>
+            <label>
+              Parent/Guardian:
+              <input type="text" name="parent" size="60"><br>
+            </label>
+
+
+            <label>
+              Contact Phone:
+              <input type="tel" name="phone">
+            </label>
+
+            <label>
+              Contact Email:
+              <input type="email" name="email" placeholder="name@domain.com">
+            </label>
+
+          </fieldset>
+
+          <fieldset>
+            <h4>Which elementary schools do you live near?</h4>
+            <table class="checkbox_t1">
+              <thead>
+                <tr>
+                  <th class="checkbox_h" colspan="2">
+                    First Closest School:
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="AJ Katsenmaier"> AJ Katzenmaier
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="Marjorie P Hart"> Marjorie P Hart
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="AJ Greenbay"> Greenbay
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="North Elementary"> North Elementary
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="Howard A Yeager"> Howard A Yeager
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="South Elementary"> South Elementary
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <table class="checkbox_t2">
+              <thead>
+                <tr>
+                  <th class="checkbox_h" colspan="2">
+                    Second Closest School:
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="AJ Katsenmaier"> AJ Katzenmaier
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="Marjorie P Hart"> Marjorie P Hart
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="AJ Greenbay"> Greenbay
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="North Elementary"> North Elementary
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="Howard A Yeager"> Howard A Yeager
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="school" value="South Elementary"> South Elementary
+                  </td>
+                </tr>
+
+              </tbody>
+
+
+            </table>
+
+
+          </fieldset>
+
+          <fieldset>
+            <h4>What position(s) do you normally play? (check all that apply)</h4>
+            <table class="checkbox_t1">
+
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Forward"> Forward
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Midfield"> Midfield
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Defense"> Defense
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Goalkeeper"> Goalkeeper
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+          </fieldset>
+
+          <fieldset>
+
+            <h4>What position(s) do you want to play? (check all that apply)</h4>
+            <table class="checkbox_t1">
+
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Forward"> Forward
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Midfield"> Midfield
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Defense"> Defense
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="checkbox" name="position" value="Goalkeeper"> Goalkeeper
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+          </fieldset>
+          <fieldset>
+            <label>
+              <input class="sci" type="radio" name="uniform" value="uniform"> Already Have a Uniform
+            </label>
+
+
+          </fieldset>
+
+          <fieldset>
+
+            <table class="checkbox_t1">
+              <thead>
+                <tr>
+                  <th class="checkbox_h" colspan="2">
+                    Jersey Size:
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Youth Small"> Youth Small
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Medium"> Medium
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Youth Medium"> Youth Medium
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Large"> Large
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Youth Large"> Youth Large
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="jersey" value="Extra-Large"> Extra-Large
+                  </td>
+
+                </tr>
+                <tr>
+                  <td class="ctable" colspan="2">
+                    <input class="sci" type="radio" name="jersey" value="Small"> Small
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+
+            <table class="checkbox_t2">
+              <thead>
+                <tr>
+                  <th class="checkbox_h" colspan="2">
+                    Shorts Size:
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Youth Small"> Youth Small
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Medium"> Medium
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Youth Medium"> Youth Medium
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Large"> Large
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Youth Large"> Youth Large
+                  </td>
+                  <td class="ctable">
+                    <input class="sci" type="radio" name="shorts" value="Extra-Large"> Extra-Large
+                  </td>
+
+                </tr>
+                <tr>
+                  <td class="ctable" colspan="2">
+                    <input class="sci" type="radio" name="shorts" value="Small"> Small
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </fieldset>
+
+          <fieldset>
+            <h5><u> Permission to Play </u></h5>
+
+            <p id="permission">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+              Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+              accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+              employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+              on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+              sponsored activities, which transportation.
+              By By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+              cancellation policy and agree to its terms. </p>
+
+            <label>
+              Parent/Guardian Signature:
+              <input type="text" name="signature">
+            </label>
+            <label>
+              Date:
+              <input type="date" name="date">
+            </label>
+
+          </fieldset>
+          <fieldset>
+            <input id="submit" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
